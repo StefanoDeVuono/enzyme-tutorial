@@ -20,9 +20,13 @@
     "react-addons-test-utils": "^15.3.1",
     "react-dom": "^15.3.1",
     "sinon": "^1.17.5",
-    "tape": "^4.6.0"
+    "tape": "^4.6.0",
+    "tape-catch": "^1.0.6"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }

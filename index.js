@@ -1,9 +1,5 @@
-var React = require('react'),
-    ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BeerListContainer } from './components';
 
-var BeerListContainer = require('./components');
-
-ReactDOM.render(
-  <BeerListContainer />,
-  document.querySelector('#root')
-);
+ReactDOM.render(<BeerListContainer />, document.querySelector('#root'));
